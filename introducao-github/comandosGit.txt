@@ -1,0 +1,27 @@
+Alguns comandos do uteis para o git-github.
+
+$ git status -> vai mostrar o status do nosso arquivo.
+Alguns comandos importantes para quem esta iniciando no Git-GitHub
+
+$ git --global --unset user.email -> vai apagar o email configurado.
+$ git --global --unset user.name -> vai apagar o usuário configurado.
+$ git config --global user.email “email p add” -> Para cadastrar um novo email.
+$ git config --global user.nickname “nome para add” -> para cadastrar o novo usuário.
+
+$ git init <O nome do seu repositório> -> Esse é o comando que você irá utilizar para criar um novo projeto de git. O comando irá criar um repositório novo em branco. Se você já possui um repositório você pode passar o nome como parâmetro do comando
+$ git clone <URL do seu projeto> -> Para criar a copia de um repositório já existente.
+$ git add seu_arquivo ->esse comando irá adicionar o arquivo em específico ao repositório.
+$ git add *  -> esse comando irá adicionar todos os arquivos novos e/ou modificados ao repositório.
+$ git commit -m “seu comentário sobre o q foi realizado.” -> executa o commit dos arquivos que foram adicionados .
+$ git branch  -> lista todas as ramificações.
+$ git branch <nome_do_branch>  ->cria um branch com o nome especificado.
+$ git branch -d <nome_do_branch>  ->deleta o branch com o nome especificado.
+Obs: Os branches são “ramificações do projeto principal (main).
+$ git remote add <nomecurto> <url> -> O comando Git remote estabelece uma conexão entre seu repositório local e um repositório remoto.
+$ git push -u origin main -> vai “jogar” os arquivos commitados para o repositório.
+$ git pull <URL> -> Puxa o conteúdo do repositório remoto para o repositório local e atualiza o conteúdo para a ultima versão.
+
+
+
+
+Fontes usadas: minhas anotações do curso introdução ao git e github da DIO e do site https://www.codigofonte.com.br/artigos/top-25-comandos-do-git.
